@@ -19,8 +19,12 @@
 }
 
 .footer{
-    display: flex;
-    margin-top: 40px;
-    justify-content: flex-end;
-    bottom: 0;
+    background-color: lightgray;
+    text-align: center;
+    border: 2px solid gray;
+    border-radius: 5px;
+    padding: 16px;
+}
+.footer p:last-child {
+    margin-bottom: 0;
 }
